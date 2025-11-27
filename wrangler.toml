@@ -9,3 +9,7 @@ zone_id = "3c79f7e2fe7d64bbe330d408c8b0a63e"
 [[routes]]
 pattern = "lingva.1f616emo.xyz/*"
 zone_id = "3c79f7e2fe7d64bbe330d408c8b0a63e"
+
+[[routes]]
+pattern = "monitoring.1f616emo.xyz/*"
+zone_id = "3c79f7e2fe7d64bbe330d408c8b0a63e"
