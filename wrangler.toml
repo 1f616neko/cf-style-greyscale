@@ -1,5 +1,6 @@
 name = "cf-style-greyscale"
 main = "cf-style-greyscale.js"
+compatibility_date = "2025-11-27"
 
 [[routes]]
 pattern = "bugs.1f616emo.xyz/*"
