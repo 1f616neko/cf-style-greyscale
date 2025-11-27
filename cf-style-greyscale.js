@@ -11,7 +11,7 @@ export default {
             return new HTMLRewriter()
                 .on("head", {
                     element(el) {
-                        el.append(`<style>body { filter: grayscale(1); }</style>`, { html: true });
+                        el.append(`<style>body{-webkit-filter:grayscale(1);filter:grayscale(1);}</style>`, { html: true });
                     }
                 })
                 .transform(response);
