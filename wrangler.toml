@@ -1,0 +1,3 @@
+routes = [
+  { pattern = "bugs.1f616emo.xyz/*", script = "inject-css" }
+]
