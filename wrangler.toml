@@ -1,3 +1,6 @@
-routes = [
-  { pattern = "bugs.1f616emo.xyz/*", script = "inject-css" }
-]
+name = "cf-style-greyscale"
+main = "cf-style-greyscale.js"
+
+[[routes]]
+pattern = "bugs.1f616emo.xyz/*"
+zone_id = "1f616emo.xyz"
